@@ -1,14 +1,15 @@
-# Insly task-2
+# Insly tasks
 
 #### TASK 1 - Name
 
+[task-1](https://github.com/fabioolima/insly-tasks/tree/master/task-1)
+
 01001010 01110101 01110011 01110100 00100000 01110111 01110010 01101111 01110100 01100101 00100000 01101101 01101111 01110010 01100101 00100000 01110100 01101000 01100001 01101110 00100000 01101111 01101110 01100101 00100000 01110111 01100001 01111001 00100001
 
-[task-1]
 
 #### TASK 2 - Calculator
 
-[task-2]
+[task-2](https://github.com/fabioolima/insly-tasks/tree/master/task-2)
 
 Using Material Desing for Frontend and jQuery.
 Backend uses composer for autoloading.
@@ -21,7 +22,7 @@ Open http://localhost:9001
 
 #### TASK 3 - Store employee data
 
-[task-3]
+[task-3](https://github.com/fabioolima/insly-tasks/tree/master/task-3)
 
 ```sql
 SELECT tb1.st_name as 'Name', tb3.st_title as 'Language', tb2.tx_text
