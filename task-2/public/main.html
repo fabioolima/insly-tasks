@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Fabio Lima">
+    <title>
+        Insly Task 2
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+
+    <link href="https://material-dashboard-pro-laravel.creative-tim.com/material/css/material-dashboard.css" rel="stylesheet">
+</head>
+
+<body class>
+    <div class="wrapper">
+        <div>
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto">
+                            <div class="card ">
+                                <div class="card-header card-header-rose card-header-icon">
+                                    <div class="card-icon">
+                                        <i class="material-icons">calculate</i>
+                                    </div>
+                                        <h4 class="card-title">Calculator</h4>
+                                </div>
+                                <div class="card-body ">
+                                    <form method="POST" action="#" id="frm-submit-data">
+                                        <div class="form-group">
+                                            <label for="valueInput">Estimated Value</label>
+                                            <input class="form-control" id="valueInput" type="number" min="100" max="100000" name="value" value="100" required aria-describedby="valueHelp" placeholder="100 - 100 000 EUR">
+                                            <small id="valueHelp" class="form-text text-muted">Estimated value of the car (100 - 100 000 EUR)</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="taxInput">Tax percentage</label>
+                                                <input class="form-control" id="taxInput" type="number" min="0" max="100" name="tax" value="1" required aria-describedby="taxHelp" placeholder="1%">
+                                                <small id="taxHelp" class="form-text text-muted">Tax percentage (0 - 100%)</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="instalmentInput">Instalments</label>
+                                                <input class="form-control" id="instalmentInput" type="number" min="1" max="12" name="instalments" value="1" required aria-describedby="instalmentsHelp" placeholder="1%">
+                                                <small id="instalmentsHelp" class="form-text text-muted">Number of instalments (1 - 12)</small>
+                                        </div>
+                                        <div class="card-footer ">
+                                            <button type="submit" class="btn btn-fill btn-rose">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header card-header-primary">
+                                    <h4 class="card-title ">Calculator Result</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table class="table" id="tableResult">
+                                            <thead class=" text-primary">
+                                                <tr id="headTable"></tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr id="rowValue"></tr>
+                                                <tr id="rowBase"></tr>
+                                                <tr id="rowCommision"></tr>
+                                                <tr id="rowTax"></tr>
+                                                <tr id="rowTotal"></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://material-dashboard-pro-laravel.creative-tim.com/material/js/core/jquery.min.js"></script>
+<script src="./assets/js/index.js"></script>
+
+</html>
